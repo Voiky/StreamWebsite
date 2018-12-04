@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+body html {
+  padding: 0;
+  margin: 0;
+  width: 2560px;
+  height: 1440px;
+  font: 20px "Bungee", cursive; }
+
+header {
+  transform: translate(-50%, -15%) scale(0.8);
+  font-family: "Bungee", cursive;
+  background-color: #3C3530;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 50%;
+  color: #AACD6E;
+  padding: 15px 40px 40px;
+  width: 500px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%; }
+  header h1 {
+    font-size: 60px;
+    width: 1fr;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 2; }
+  header #normally-my-logo {
+    outline: #A593E0 dotted 2px;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px; }
+
+/*# sourceMappingURL=style.css.map */

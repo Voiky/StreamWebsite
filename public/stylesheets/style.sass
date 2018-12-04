@@ -1,0 +1,42 @@
+$green: #AACD6E
+$red: #F16B6F
+$black: #3C3530
+$grey: #C5C6B6
+$purple: #A593E0
+
+$fonts: 'Bungee', cursive
+
+@import url('https://fonts.googleapis.com/css?family=Bungee')
+
+body html
+  padding: 0
+  margin: 0
+  width: 2560px
+  height: 1440px
+  font: 20px $fonts
+
+header
+  transform: translate(-50%, -15%) scale(0.8)
+  font-family: $fonts
+  background-color: $black
+  position: absolute
+  display: flex
+  justify-content: center
+  margin-left: 50%
+  color: $green
+  padding: 15px 40px 40px
+  width: 500px
+  border-bottom-left-radius: 50%
+  border-bottom-right-radius: 50%
+  h1
+    font-size: 60px
+    width: 1fr
+    text-align: center
+    margin: 0
+    padding: 0
+    line-height: 2
+  #normally-my-logo
+    outline: $purple dotted 2px
+    width: 120px
+    height: 120px
+    margin-right: 20px
